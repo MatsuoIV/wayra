@@ -110,6 +110,7 @@
 		                'fiecs' => 	'Facultad de Ingeniería Económica y Ciencias Sociales',
 		                'fiee'	=> 	'Facultad de Ingeniería Eléctrica y Electrónica',
 		                'figmm' => 	'Facultad de Ingeniería Geológica, Minera y Metalúrgica',
+		                'fic'	=>	'Facultad de Ingeniería Civil',
 		                'fiis'	=> 	'Facultad de Ingeniería Industrial y de Sistemas',
 		                'fim'	=> 	'Facultad de Ingeniería Mecánica',
 		                'fip'	=> 	'Facultad de Ingeniería de Petroleo',
