@@ -42,7 +42,7 @@
 					);
 
 				$this->registro_model->registrar($datos);
-				echo $this->input->post('nombre');
+				$this->load->view('exito_view');
 			}
 		
 		}

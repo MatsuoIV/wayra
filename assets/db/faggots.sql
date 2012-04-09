@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 09-04-2012 a las 03:08:23
+-- Tiempo de generación: 09-04-2012 a las 20:30:30
 -- Versión del servidor: 5.5.16
 -- Versión de PHP: 5.3.8
 
@@ -31,23 +31,14 @@ CREATE TABLE IF NOT EXISTS `faggots` (
   `nombre` varchar(30) NOT NULL,
   `ap_paterno` varchar(20) NOT NULL,
   `ap_materno` varchar(20) NOT NULL,
+  `dni` int(8) NOT NULL,
   `edad` int(2) NOT NULL,
   `mail` varchar(100) NOT NULL,
   `telefono` int(9) NOT NULL,
   `facultad` varchar(100) DEFAULT NULL,
   `universidad` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`faggot_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
-
---
--- Volcado de datos para la tabla `faggots`
---
-
-INSERT INTO `faggots` (`faggot_id`, `nombre`, `ap_paterno`, `ap_materno`, `edad`, `mail`, `telefono`, `facultad`, `universidad`) VALUES
-(1, 'Pedro Pablo', 'Pairazaman', 'Silva', 23, 'pedrotlx@gmail.com', 992934234, 'FIIS', NULL),
-(2, 'Pedro Arturo', 'Valdivia', 'Magallanes', 21, 'arturo_1015@gmail.com', 4503620, NULL, 'UNMSM'),
-(3, 'Pedro Pablo', 'Pairazamán', 'Silva', 23, 'pedrotlx@gmail.com', 992934234, '0', 'UIGV'),
-(4, 'Brian David', 'Matienzo', 'García', 20, 'brimatienzo47@gmail.com', 987654321, 'faua', '0');
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
