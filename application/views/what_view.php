@@ -24,16 +24,16 @@
 			<div class="container">
 			    <ul class="nav">
     				<?php echo '<li><a href="'.base_url().'">Inicio</a></li>';?>
-    				<?php echo '<li class="active"><a href="'.base_url().'who">¿Quiénes somos?</a></li>';?>
-    				<?php echo '<li><a href="'.base_url().'team">Conoce a los ponentes</a></li>';?>
+    				<?php echo '<li class><a href="'.base_url().'who">¿Quiénes somos?</a></li>';?>
+    				<?php echo '<li class="active"><a href="'.base_url().'what">¿Qué mostraremos?</a></li>';?>
     				<?php echo '<li><a href="'.base_url().'registro">REGÍSTRATE Y ASISTE</a></li>';?>
     			</ul>
 			</div>
 		</div>
 	</div>
 	<div class="container">
-	<h1>¿Quiénes somos?</h1><br />
-	<legend>Conoce más de los organizadores</legend>
+	<h1>¿Qué mostraremos?</h1><br />
+	<legend>Entérate de lo que habrá ese día</legend>
 	<div class="meta-grid row">
 		<div class="span3">
 			<img class="logo" src="assets/img/wayra_logo.jpg">

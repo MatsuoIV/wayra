@@ -30,6 +30,7 @@
 			    <ul class="nav">
     				<?php echo '<li><a href="'.base_url().'">Inicio</a></li>';?>
     				<?php echo '<li><a href="'.base_url().'who">¿Quiénes somos?</a></li>';?>
+    				<?php echo '<li><a href="'.base_url().'team">Conoce a los ponentes</a></li>';?>
     				<?php echo '<li class="active"><a href="'.base_url().'registro">REGÍSTRATE Y ASISTE</a></li>';?>
     			</ul>
 			</div>
